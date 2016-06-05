@@ -47,6 +47,13 @@ console.dir(orgHTMLDocument); // => { title, contentHTML, tocHTML, toc }
 console.log(orgHTMLDocument.toString()) // => Rendered HTML
 ```
 
+Conversion from the command line
+--------------------------------
+
+```sh
+cat $PATH_TO_INPUT_FILE.org | ./org2html.js > $PATH_TO_OUTPUT_FILE.html
+```
+
 Writing yet another converter
 -----------------------------
 
