@@ -13,6 +13,21 @@ Installation
 
     npm install org
 
+Development setup (TODO)
+------------
+
+requires `ruby` (`stub/module-exporter/export.rb`)
+
+Building
+------------
+
+Assuming you have all necessary dependencies installed, run:
+
+    ./build.sh
+
+this generates `./org.js`, which can be directly included into a webpage for
+browser-based usage.
+
 Simple example of org -> HTML conversion
 ----------------------------------------
 
