@@ -28,6 +28,13 @@ Assuming you have all necessary dependencies installed, run:
 this generates `./org.js`, which can be directly included into a webpage for
 browser-based usage.
 
+To add e.g. a new converter, place your converter file into `org/converter`,
+and add a corresponding
+
+    `exportModule(require("./org/converter/newconverter.js"));`
+
+line to `lib/org.js` to include it into your build.
+
 Simple example of org -> HTML conversion
 ----------------------------------------
 
